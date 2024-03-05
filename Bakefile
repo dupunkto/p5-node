@@ -1,0 +1,17 @@
+#!/bin/bash -eu
+
+SRC="src/index.js"
+DIST="lib"
+
+setup() {
+  bun install
+}
+
+format() {
+  prettier --write . 
+}
+
+build() {
+  bun build "$SRC" --outfile="$DIST"/p5.js
+  bun build "$SRC" --minify --outfile="$DIST"/p5.min.js
+}

@@ -1,0 +1,17 @@
+{
+  "name": "p5-node",
+  "version": "1.9.1",
+  "repository": "dupunkto/p5-node",
+  "description": "A package containing some APIs from p5js, like p5.Vector and p5.Color, that can be used outside of the browser.",
+  "module": "src/index.js",
+  "type": "module",
+  "license": "LGPL-2.1",
+  "files": [
+    "license.txt",
+    "lib/p5.min.js",
+    "lib/p5.js"
+  ],
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}
