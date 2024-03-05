@@ -6,6 +6,7 @@
   "module": "src/index.js",
   "type": "module",
   "license": "LGPL-2.1",
+  "main": "./lib/p5.js",
   "files": [
     "license.txt",
     "lib/p5.min.js",
