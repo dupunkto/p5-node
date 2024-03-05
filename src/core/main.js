@@ -11,6 +11,12 @@ export default class p5 {
   constructor() {
     this._lcg_random_state = null;
     this._gaussian_previous = false;
+    this._colorMode = constants.RGB;
+    this._colorMaxes = {
+      rgb: [255, 255, 255, 255],
+      hsb: [360, 100, 100, 1],
+      hsl: [360, 100, 100, 1],
+    };
   }
 }
 
